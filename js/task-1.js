@@ -1,5 +1,5 @@
-let normalizedArray = [];
 function slugify(title) {
+    let normalizedArray = [];
     const array1 = title.split(" ");
   
     for (let i = 0; i < array1.length; i++) { normalizedArray.push(array1[i].toLowerCase()); }
